@@ -1,23 +1,20 @@
-import logo from './logo.svg';
 import './App.css';
+import Practice1 from './Components/Practice1'
+import Practice2 from './Components/Practice2'
+import Practice3 from './Components/Practice3'
+import {toast}  from 'react-toastify'
+import 'react-toastify/dist/ReactToastify.css'
 
+toast.configure();
 function App() {
+  const notify = () => toast("Button clicked")
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Practice1 />
+      <Practice2 />
+      {/* <Practice3 /> */}
+      <button onClick={notify}>Click</button>
+      {/* <ToastContainer /> */}
     </div>
   );
 }
