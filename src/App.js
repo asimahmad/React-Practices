@@ -4,6 +4,7 @@ import Practice2 from './Components/Practice2'
 import Practice3 from './Components/Practice3'
 import {toast}  from 'react-toastify'
 import 'react-toastify/dist/ReactToastify.css'
+import Para from './Para'
 
 toast.configure();
 function App() {
@@ -15,6 +16,7 @@ function App() {
       {/* <Practice3 /> */}
       <button onClick={notify}>Click</button>
       {/* <ToastContainer /> */}
+      <Para />
     </div>
   );
 }
