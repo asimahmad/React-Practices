@@ -6,23 +6,20 @@ import Practice4 from './Components/Practice4'
 import {toast}  from 'react-toastify'
 import 'react-toastify/dist/ReactToastify.css'
 import Para from './Para'
+import Practice5 from './Components/Practice5'
 
 toast.configure();
 function App() {
   const notify = () => toast("Button clicked")
   return (
     <div className="App">
-      <Practice1 />
+      {/* <Practice1 />
       <Practice2 />
-      {/* <Practice3 /> */}
-      <button onClick={notify}>Click</button>
-      {/* <ToastContainer /> */}
-      <Para />
-
       <Practice4>
         <h2>I am inside of parent</h2>
-      </Practice4>
-
+        <div>Div inside of parent</div>
+      </Practice4> */}
+      <Practice5 />
 
     </div>
   );
