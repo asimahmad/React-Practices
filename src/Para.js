@@ -13,7 +13,7 @@ function Para(props) {
         <div>
             <a onClick={()=>setUpdate(true)} style={{cursor:'pointer', marginTop:'10rem'}}>Click me</a>
             {update?(<p> I am the paragraph.</p>):''}
-            <input  type="text" ref={ref} onChange={(event)=> setData(event.target.value)}/>
+            <input type="text" ref={ref} onChange={(event)=> setData(event.target.value)}/>
             <p style={{alignItems:'center',wordWrap:"break-word"}}>{data}</p>
         </div>
     );
