@@ -39,5 +39,11 @@
 
 
 #my-div{
+  position: absolute;
+  /* inset: 0;   it is same as the top, bottom, right, and left  */
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
   background: yellow;
 }
