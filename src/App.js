@@ -7,6 +7,7 @@ import {toast}  from 'react-toastify'
 import 'react-toastify/dist/ReactToastify.css'
 import Para from './Para'
 import Practice5 from './Components/Practice5'
+import Practice6 from './Components/Practice6'
 
 toast.configure();
 function App() {
@@ -18,8 +19,11 @@ function App() {
       <Practice4>
         <h2>I am inside of parent</h2>
         <div>Div inside of parent</div>
-      </Practice4> */}
-      <Practice5 />
+      </Practice4> 
+      <Practice5 /> */}
+      <Practice6/>
+
+
 
     </div>
   );
